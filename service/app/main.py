@@ -37,8 +37,8 @@ column_names = ['CT1', 'CT2', 'CT3', 'CT_Avg',
 styles = getSampleStyleSheet()
 
 # MongoDB configuration
-MONGO_DB_NAME = "admin"
-MONGO_URL = f"mongodb://USER:PASSWORD@HOST:PORT/admin"
+MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "admin")
+MONGO_URL = os.getenv("MONGO_URL", "mongodb://localhost:27017/admin")
 
 TIMEZONE_STR = "Asia/Karachi"
 

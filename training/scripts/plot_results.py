@@ -12,7 +12,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "assets"
+OUT = ROOT.parent / "assets"
 OUT.mkdir(exist_ok=True)
 
 INK, MUTED, ACCENT, COPPER, LINE = "#202c3a", "#536171", "#305b8a", "#b47b40", "#dce1e6"
