@@ -4,6 +4,7 @@
 
 **Machine-specific anomaly detection, root-cause attribution and maintenance forecasting for industrial equipment: an end-to-end pipeline from raw IoT telemetry to a containerised FastAPI microservice.**
 
+[![Documentation](https://img.shields.io/badge/Documentation-Read%20the%20project%20page-1d2836?logo=readthedocs&logoColor=white)](https://danishzulfiqar-projects.vercel.app/predictive-maintenance)
 ![Python](https://img.shields.io/badge/Python-3.10-305b8a?logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow%20%2F%20Keras-MLP-b47b40?logo=tensorflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-Isolation%20Forest-b47b40?logo=scikitlearn&logoColor=white)
@@ -19,6 +20,9 @@ Developed during an ML internship at the **Center for Advanced Research in Engin
 |---|---|
 | [`training/`](training) | Six notebooks that turn one machine's raw telemetry into a deployable model: extraction, cleaning, isolation-forest labelling, MLP training, evaluation and one-click deployment |
 | [`service/`](service) | FastAPI microservice with a per-machine model registry, real-time inference, SHAP fault attribution and maintenance forecasting |
+
+
+> 📘 **Full write-up with figures:** [danishzulfiqar-projects.vercel.app/predictive-maintenance](https://danishzulfiqar-projects.vercel.app/predictive-maintenance)
 
 ## The problem
 
