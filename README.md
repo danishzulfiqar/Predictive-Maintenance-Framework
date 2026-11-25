@@ -21,7 +21,6 @@ Developed during an ML internship at the **Center for Advanced Research in Engin
 | [`training/`](training) | Six notebooks that turn one machine's raw telemetry into a deployable model: extraction, cleaning, isolation-forest labelling, MLP training, evaluation and one-click deployment |
 | [`service/`](service) | FastAPI microservice with a per-machine model registry, real-time inference, SHAP fault attribution and maintenance forecasting |
 
-
 > 📘 **Full write-up with figures:** [danishzulfiqar-projects.vercel.app/predictive-maintenance](https://danishzulfiqar-projects.vercel.app/predictive-maintenance)
 
 ## The problem
